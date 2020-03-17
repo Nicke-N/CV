@@ -39,7 +39,7 @@
           <div class="card-body">
             <div id="wrapper">
               <div class="icon">
-                <div><img src="pics/Jamviktspris.png" class="pic"></div>
+                <div><img src="pics/Jamviktspris.png" class="pic" id="me" onclick="rotateImage()"></div>
                 <div class="icontext">En bild som visar jämviktspunkten mellan kvantitet och pris. Bilden representerar
                   mina studier under första halvan av 2019.</div>
               </div>
@@ -207,7 +207,7 @@
                   economics, micro economics - which I studied the first half of 2019.</div>
               </div>
               <div id="description">
-                <div><img src="pics/me.jpg" class="pic"></div>
+                <div><img src="pics/me.jpg" class="pic" id="me" onclick="rotateImage()"></div>
                 <div class="text">I'm a student aiming to become a web developer.</div>
                 <div class="text">My knowledge in developing is next to nothing right now, but my ambition is to become
                   an innovative developer.</div>
@@ -350,6 +350,13 @@
       </div>
     </div>
   </div>
+
+  <script>
+    function rotateImage() {
+        var img = document.getElementById('me');
+        img.style.transform = 'rotate(180deg)';
+    }
+  </script>
 
   <script src="node_modules/jquery/dist/jquery.min.js""></script>
   <script src="node_modules/popper.js/dist/popper.min.js"></script> 

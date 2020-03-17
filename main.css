@@ -9677,8 +9677,9 @@ h3 {
   width: 40%;
 }
 
-.me {
+#me {
   float: left;
+  size: 10%;
 }
 
 .pic {
