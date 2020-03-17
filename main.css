@@ -9677,14 +9677,19 @@ h3 {
   width: 40%;
 }
 
-#me {
-  float: left;
-  size: 10%;
-}
+
 
 .pic {
   height: 50%;
   width: 70%;
+}
+.me{
+  float: left;
+  height: 10%;
+  width: 20%;
+  transform: rotate(270deg);
+  position: relative;
+  top: 10px;
 }
 
 .icontext {
