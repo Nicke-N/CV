@@ -9687,7 +9687,7 @@ h3 {
   float: left;
   height: 10%;
   width: 20%;
-  transform: rotate(270deg);
+  transform: rotate(90deg);
   position: relative;
   top: 10px;
 }
